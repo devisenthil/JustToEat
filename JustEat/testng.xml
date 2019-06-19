@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="JustEat.JustEat_Scenario_FindRestaurantByPostalCode"/>
+      <class name="JustEat.JustToEat_Scenario_AddFoodFromBasket"/>
+      <class name="JustEat.JustToEat_Scenario_RefineTheSearchByDifferentFilters"/>
+      <class name="JustEat.JustToEat_Scenario_RemoveFoodFromBasket"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

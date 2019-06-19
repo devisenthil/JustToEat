@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="JustEat.JustToEat_Scenario_RemoveFoodFromBasket">
+        <methods>
+          <include name="JustEat_FindRestaurantByPostalCode"/>
+        </methods>
+      </class> <!-- JustEat.JustToEat_Scenario_RemoveFoodFromBasket -->
+      <class name="JustEat.JustToEat_Scenario_AddFoodFromBasket">
+        <methods>
+          <include name="JustToEat_AddFoodFromBasket"/>
+        </methods>
+      </class> <!-- JustEat.JustToEat_Scenario_AddFoodFromBasket -->
+      <class name="JustEat.JustEat_Scenario_FindRestaurantByPostalCode">
+        <methods>
+          <include name="JustEat_FindRestaurantByPostalCode"/>
+        </methods>
+      </class> <!-- JustEat.JustEat_Scenario_FindRestaurantByPostalCode -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

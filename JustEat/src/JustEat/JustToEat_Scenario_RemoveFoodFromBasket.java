@@ -1,5 +1,6 @@
 package JustEat;
 
+import org.testng.annotations.Test;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -12,22 +13,24 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 
 
-public class JustToEat_RemoveFoodFromBasket {
+public class JustToEat_Scenario_RemoveFoodFromBasket {
 	
-	public static void main(String[] args) throws Exception{
+	@Test
+	public static void JustEat_FindRestaurantByPostalCode() throws Exception{
 				
 		System.setProperty("webdriver.chrome.driver", 
 				 System.getProperty("user.dir")+"/chromedriver");			 
 		WebDriver driver = new ChromeDriver();	
 		
 		Properties prop = new Properties();
-		FileInputStream ip = new FileInputStream("/Users/devi/eclipse-workspace/JustEat/config.properties");
+		FileInputStream ip = new FileInputStream("/Users/devi/git/repository/JustEat/config.properties");
 		prop.load(ip);
 		
 		String postalcode = prop.getProperty("PostalCode");

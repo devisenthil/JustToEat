@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-19T00:02:36Z" name="Suite" finished-at="2019-06-19T00:04:19Z" duration-ms="103517">
+    <groups>
+    </groups>
+    <test started-at="2019-06-19T00:02:36Z" name="Test" finished-at="2019-06-19T00:04:19Z" duration-ms="103517">
+      <class name="JustEat.JustToEat_Scenario_AddFoodFromBasket">
+        <test-method signature="JustToEat_AddFoodFromBasket()[pri:0, instance:JustEat.JustToEat_Scenario_AddFoodFromBasket@731f8236]" started-at="2019-06-19T00:03:02Z" name="JustToEat_AddFoodFromBasket" finished-at="2019-06-19T00:03:28Z" duration-ms="26525" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/restaurants-demotestddc-25/menu#cat8">...</a> is not clickable at point (327, 356). Other element would receive the click: <div id="advisoryOverlay"></div>
+  (Session info: chrome=75.0.3770.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Devis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c9d:3609:1599:f55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/08/jgrxzwms3k3...}, goog:chromeOptions: {debuggerAddress: localhost:62581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 048352b304dafb56268160aa81bafb1b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/restaurants-demotestddc-25/menu#cat8">...</a> is not clickable at point (327, 356). Other element would receive the click: <div id="advisoryOverlay"></div>
+  (Session info: chrome=75.0.3770.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Devis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c9d:3609:1599:f55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/08/jgrxzwms3k3...}, goog:chromeOptions: {debuggerAddress: localhost:62581}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 048352b304dafb56268160aa81bafb1b
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at JustEat.JustToEat_Scenario_AddFoodFromBasket.AddFoodToBasket(JustToEat_Scenario_AddFoodFromBasket.java:132)
+at JustEat.JustToEat_Scenario_AddFoodFromBasket.JustToEat_AddFoodFromBasket(JustToEat_Scenario_AddFoodFromBasket.java:46)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JustToEat_AddFoodFromBasket -->
+      </class> <!-- JustEat.JustToEat_Scenario_AddFoodFromBasket -->
+      <class name="JustEat.JustEat_Scenario_FindRestaurantByPostalCode">
+        <test-method signature="JustEat_FindRestaurantByPostalCode()[pri:0, instance:JustEat.JustEat_Scenario_FindRestaurantByPostalCode@226a82c4]" started-at="2019-06-19T00:02:36Z" name="JustEat_FindRestaurantByPostalCode" finished-at="2019-06-19T00:03:02Z" duration-ms="26144" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/restaurants-demotestddc-25/menu#cat8">...</a> is not clickable at point (327, 356). Other element would receive the click: <div id="advisoryOverlay"></div>
+  (Session info: chrome=75.0.3770.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Devis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c9d:3609:1599:f55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/08/jgrxzwms3k3...}, goog:chromeOptions: {debuggerAddress: localhost:62506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d1684467803a98c2f63bb6d8864a1b7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/restaurants-demotestddc-25/menu#cat8">...</a> is not clickable at point (327, 356). Other element would receive the click: <div id="advisoryOverlay"></div>
+  (Session info: chrome=75.0.3770.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Devis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c9d:3609:1599:f55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/08/jgrxzwms3k3...}, goog:chromeOptions: {debuggerAddress: localhost:62506}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4d1684467803a98c2f63bb6d8864a1b7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at JustEat.JustEat_Scenario_FindRestaurantByPostalCode.AddFoodToBasket(JustEat_Scenario_FindRestaurantByPostalCode.java:131)
+at JustEat.JustEat_Scenario_FindRestaurantByPostalCode.JustEat_FindRestaurantByPostalCode(JustEat_Scenario_FindRestaurantByPostalCode.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JustEat_FindRestaurantByPostalCode -->
+      </class> <!-- JustEat.JustEat_Scenario_FindRestaurantByPostalCode -->
+      <class name="JustEat.JustToEat_Scenario_RemoveFoodFromBasket">
+        <test-method signature="JustEat_FindRestaurantByPostalCode()[pri:0, instance:JustEat.JustToEat_Scenario_RemoveFoodFromBasket@1dd92fe2]" started-at="2019-06-19T00:03:54Z" name="JustEat_FindRestaurantByPostalCode" finished-at="2019-06-19T00:04:19Z" duration-ms="24961" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/restaurants-demotestddc-25/menu#cat8">...</a> is not clickable at point (327, 356). Other element would receive the click: <div id="advisoryOverlay"></div>
+  (Session info: chrome=75.0.3770.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Devis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c9d:3609:1599:f55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/08/jgrxzwms3k3...}, goog:chromeOptions: {debuggerAddress: localhost:62743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6d2e8c4e0f6a1ca682a682ec23d4c87]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/restaurants-demotestddc-25/menu#cat8">...</a> is not clickable at point (327, 356). Other element would receive the click: <div id="advisoryOverlay"></div>
+  (Session info: chrome=75.0.3770.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:48'
+System info: host: 'Devis-MacBook-Pro.local', ip: 'fe80:0:0:0:1c9d:3609:1599:f55%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '12.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.90, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: /var/folders/08/jgrxzwms3k3...}, goog:chromeOptions: {debuggerAddress: localhost:62743}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e6d2e8c4e0f6a1ca682a682ec23d4c87
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at JustEat.JustToEat_Scenario_RemoveFoodFromBasket.AddFoodToBasket(JustToEat_Scenario_RemoveFoodFromBasket.java:131)
+at JustEat.JustToEat_Scenario_RemoveFoodFromBasket.JustEat_FindRestaurantByPostalCode(JustToEat_Scenario_RemoveFoodFromBasket.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JustEat_FindRestaurantByPostalCode -->
+      </class> <!-- JustEat.JustToEat_Scenario_RemoveFoodFromBasket -->
+      <class name="JustEat.JustToEat_Scenario_RefineTheSearchByDifferentFilters">
+        <test-method signature="JustToEat_RefineTheSearchByDifferentFilters()[pri:0, instance:JustEat.JustToEat_Scenario_RefineTheSearchByDifferentFilters@255b53dc]" started-at="2019-06-19T00:03:28Z" name="JustToEat_RefineTheSearchByDifferentFilters" finished-at="2019-06-19T00:03:54Z" duration-ms="25820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JustToEat_RefineTheSearchByDifferentFilters -->
+      </class> <!-- JustEat.JustToEat_Scenario_RefineTheSearchByDifferentFilters -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
